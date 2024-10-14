@@ -1,10 +1,12 @@
 {
   "name": "colion.template.view",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cli 模板统一管理",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --config ./config/webpack.dev.js",
+    "build": "webpack --config ./config/webpack.prod.js",
+    "colionic": "volta run --node 18.16.0 colionic"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,30 @@
   "homepage": "https://github.com/colionic/colion.template.view#readme",
   "volta": {
     "node": "14.16.0"
+  },
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@webpack-cli/serve": "^2.0.5",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^0.11.3",
+    "postcss": "^8.4.47",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.3.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^6.0.1"
   }
 }
