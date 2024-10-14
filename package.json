@@ -1,0 +1,23 @@
+{
+  "name": "colion.template.view",
+  "version": "1.0.1",
+  "description": "cli 模板统一管理",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colionic/colion.template.view.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colionic/colion.template.view/issues"
+  },
+  "homepage": "https://github.com/colionic/colion.template.view#readme",
+  "volta": {
+    "node": "14.16.0"
+  }
+}
