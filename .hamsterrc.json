@@ -1,0 +1,12 @@
+{
+  "urls": [
+    {
+      "name": "element-ui",
+      "value": "https://element.eleme.io/#/zh-CN/component/installation"
+    },
+    {
+      "name": "npm",
+      "value": "https://www.npmjs.com/"
+    }
+  ]
+}

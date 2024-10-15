@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    Hello Vue2
     <router-view />
   </div>
 </template>

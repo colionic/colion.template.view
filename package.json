@@ -1,14 +1,16 @@
 {
   "name": "colion.vue2clitemplate.view",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "colion": "volta run --node 18.16.0 colionic"
+    "colion": "volta run --node 18.16.0 colionic",
+    "hamster": "volta run --node 18.16.0 hamster"
   },
   "dependencies": {
+    "@colion/hamster": "0.0.11",
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
