@@ -1,19 +1,19 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import HomeView from '@/views/Home/HomeView.vue';
+import Vue from "vue";
+import VueRouter from "vue-router";
+import HomeView from "@/views/Home/HomeView.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
+    path: "/",
+    name: "home",
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About/AboutView.vue')
+    path: "/about",
+    name: "about",
+    component: () => import(/* webpackChunkName: "about" */ "../views/About/AboutView.vue")
   }
 ];
 

@@ -12,11 +12,11 @@ module.exports = {
   semi: true,
 
   // 是否使用单引号代替双引号，默认为 false
-  singleQuote: true,
+  singleQuote: false,
 
   // 末尾逗号的使用情况，"none"（无）、"es5"（ES5 兼容）、"all"（所有地方）中选择
   // 对象最后一个元素后加逗号
-  trailingComma: "none",
+  trailingComma: 'none',
 
   // 对象字面量的大括号内是否加空格，默认为 true
   bracketSpacing: true,
@@ -25,10 +25,10 @@ module.exports = {
   jsxBracketSameLine: false,
 
   // 箭头函数参数是否用括号包裹，"avoid"（如果只有一个参数则省略括号）、"always"（始终使用括号）
-  arrowParens: "always",
+  arrowParens: 'always',
 
   // 控制 HTML 文件中空白字符的敏感度，"css"（遵循 CSS 规则）、"strict"（严格模式）、"ignore"（忽略所有空白）
-  htmlWhitespaceSensitivity: "css",
+  htmlWhitespaceSensitivity: 'css',
 
   // 是否为 Vue 文件中的 `<script>` 和 `<style>` 部分使用缩进，默认为 false
   vueIndentScriptAndStyle: true,
@@ -43,8 +43,8 @@ module.exports = {
   requirePragma: false,
 
   // 控制是否对嵌入的语言（如 HTML 中的 JavaScript 和 CSS）进行格式化，"auto"（默认设置，自动格式化）、"off"（禁用）
-  embeddedLanguageFormatting: "auto",
+  embeddedLanguageFormatting: 'auto',
 
   // 控制对多行文本块（如 Markdown）是否换行，"preserve"（保留原样）、"never"（从不换行）、"always"（总是换行）
-  proseWrap: "always"
+  proseWrap: 'always'
 };
