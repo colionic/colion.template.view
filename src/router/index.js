@@ -1,14 +1,13 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HomeView from "@/views/Home/HomeView.vue";
+import LayoutView from "@/views/Layout/LayoutView.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: HomeView
+    component: LayoutView
   },
   {
     path: "/about",
